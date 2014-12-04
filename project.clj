@@ -6,5 +6,6 @@
   :plugins [[lein-bin "0.3.4"]]
   :bin {:name "http-server"}
   :profiles {:uberjar {:aot :all}
-             :dev {:dependencies [[midje "1.6.3"]]}})
+             :dev {:dependencies [[midje "1.6.3"]
+                                  [clj-http "1.0.1"]]}})
 
