@@ -11,5 +11,6 @@
   :bin {:name "http-server"}
   :profiles {:uberjar {:aot :all}
              :dev {:dependencies [[midje "1.6.3"]
-                                  [clj-http "1.0.1"]]}})
+                                  [clj-http "1.0.1"]]
+                   :plugins [[lein-midje "3.1.3"]]}})
 
