@@ -1,3 +1,6 @@
+[![travis-ci.org](https://travis-ci.org/bsvingen/http-server.svg?branch=master)](https://travis-ci.org/bsvingen/http-server)
+
+
 http-server
 ===========
 
